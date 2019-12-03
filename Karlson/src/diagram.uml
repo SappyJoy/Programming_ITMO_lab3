@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="23.0">Human</node>
+    <node x="1245.0" y="969.0">Head</node>
+    <node x="0.0" y="1284.0">Novel</node>
+    <node x="1349.0" y="264.0">Evening</node>
+    <node x="0.0" y="969.0">WalkingPeople</node>
+    <node x="1135.0" y="276.0">Rustle</node>
+    <node x="227.0" y="0.0">HumanInterface</node>
+    <node x="457.0" y="313.0">LittleThings</node>
+    <node x="661.0" y="300.5">AromaLime</node>
+    <node x="525.0" y="969.0">Prepositions</node>
+    <node x="862.0" y="300.5">KnockingHeels</node>
+    <node x="728.0" y="969.0">LivingPeople</node>
+    <node x="644.375" y="61.0">ThingInterface</node>
+    <node x="88.0" y="366.0">Person</node>
+    <node x="948.25" y="0.0">Thing</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Rustle" target="Thing">
+      <point x="48.5" y="-63.0" />
+      <point x="1280.5" y="204.0" />
+      <point x="1093.15" y="204.0" />
+      <point x="41.40000000000009" y="87.0" />
+    </edge>
+    <edge source="AromaLime" target="ThingInterface">
+      <point x="-45.25" y="-38.5" />
+      <point x="-20.625" y="26.0" />
+    </edge>
+    <edge source="LittleThings" target="ThingInterface">
+      <point x="-46.0" y="-26.0" />
+      <point x="503.0" y="224.0" />
+      <point x="665.0" y="224.0" />
+      <point x="-61.875" y="26.0" />
+    </edge>
+    <edge source="AromaLime" target="Thing">
+      <point x="45.25" y="-38.5" />
+      <point x="796.75" y="244.0" />
+      <point x="1010.35" y="244.0" />
+      <point x="-41.39999999999998" y="87.0" />
+    </edge>
+    <edge source="Rustle" target="ThingInterface">
+      <point x="-48.5" y="-63.0" />
+      <point x="1183.5" y="214.0" />
+      <point x="788.75" y="214.0" />
+      <point x="61.875" y="26.0" />
+    </edge>
+    <edge source="Person" target="HumanInterface">
+      <point x="61.75" y="-279.0" />
+      <point x="273.25" y="341.0" />
+      <point x="319.5" y="341.0" />
+      <point x="0.0" y="158.0" />
+    </edge>
+    <edge source="KnockingHeels" target="Thing">
+      <point x="63.25" y="-38.5" />
+      <point x="0.0" y="87.0" />
+    </edge>
+    <edge source="LittleThings" target="Thing">
+      <point x="46.0" y="-26.0" />
+      <point x="595.0" y="234.0" />
+      <point x="968.95" y="234.0" />
+      <point x="-82.79999999999995" y="87.0" />
+    </edge>
+    <edge source="Person" target="Human">
+      <point x="-61.75" y="-279.0" />
+      <point x="149.75" y="341.0" />
+      <point x="103.5" y="341.0" />
+      <point x="0.0" y="135.0" />
+    </edge>
+    <edge source="KnockingHeels" target="ThingInterface">
+      <point x="-63.25" y="-38.5" />
+      <point x="925.25" y="224.0" />
+      <point x="747.5" y="224.0" />
+      <point x="20.625" y="26.0" />
+    </edge>
+    <edge source="Evening" target="Thing">
+      <point x="0.0" y="-75.0" />
+      <point x="1437.0" y="194.0" />
+      <point x="1134.55" y="194.0" />
+      <point x="82.79999999999995" y="87.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="634.1428571428572" y="492.73809523809524" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
